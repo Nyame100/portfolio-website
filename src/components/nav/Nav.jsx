@@ -11,7 +11,7 @@ const Nav = () => {
     <nav>
       <a
         href="#"
-        className={isActive === "#" && "active"}
+        className={isActive === "#" ? "active" : null}
         onClick={() => setIsActive("#")}
       >
         <ImHome3 />
@@ -19,20 +19,20 @@ const Nav = () => {
       <a
         href="#about"
         onClick={() => setIsActive("#about")}
-        className={isActive === "#about" && "active"}
+        className={isActive === "#about" ? "active" : null}
       >
         <FaUserCircle />
       </a>
       <a
         href="#experience"
         onClick={() => setIsActive("#experience")}
-        className={isActive === "#experience" && "active"}
+        className={isActive === "#experience" ? "active" : null}
       >
         <BiBook />
       </a>
       <a
         href="#portfolio"
-        className={isActive === "#portfolio" && "active"}
+        className={isActive === "#portfolio" ? "active" : null}
         onClick={() => setIsActive("#portfolio")}
       >
         <AiTwotoneFolderOpen />
@@ -40,7 +40,7 @@ const Nav = () => {
       <a
         href="#contact"
         onClick={() => setIsActive("#contact")}
-        className={isActive === "#contact" && "active"}
+        className={isActive === "#contact" ? "active" : null}
       >
         <AiFillMessage />
       </a>
