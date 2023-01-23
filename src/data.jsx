@@ -51,3 +51,27 @@ export const portfolios = [
     demo_url: "https://dribbble.com/Alien_pixels",
   },
 ];
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "Joseph Djaba",
+    img: download3,
+    comment:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo aut ad distinctio beatae quo dolorem, voluptates consequuntur natus in.",
+  },
+  {
+    id: 2,
+    name: "Joseph Djaba",
+    img: download3,
+    comment:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo aut ad distinctio beatae quo dolorem, voluptates consequuntur natus in.",
+  },
+  {
+    id: 3,
+    name: "Joseph Djaba",
+    img: download3,
+    comment:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo aut ad distinctio beatae quo dolorem, voluptates consequuntur natus in.",
+  },
+];
