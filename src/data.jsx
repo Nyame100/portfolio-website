@@ -18,9 +18,9 @@ export const portfolios = [
   {
     id: 2,
     img: download2,
-    title: "some title",
-    git_url: "https://github.com",
-    demo_url: "https://dribbble.com/Alien_pixels",
+    title: "Stock-Photo Project",
+    git_url: "https://github.com/Nyame100/stock-photos-project",
+    demo_url: "https://stock-photoss.netlify.app/",
   },
   {
     id: 3,
