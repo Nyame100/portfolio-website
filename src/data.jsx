@@ -69,11 +69,11 @@ export const testimonials = [
     comment:
       "Richmond is dedicated to whatever he sets his mind on. He is enthusiastic, commited and creative in finding solutions to problems.",
   },
-  {
-    id: 3,
-    name: "Joseph Djaba",
-    img: joseph.jpg,
-    comment:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo aut ad distinctio beatae quo dolorem, voluptates consequuntur natus in.",
-  },
+  // {
+  //   id: 3,
+  //   name: "Joseph Djaba",
+  //   img: joseph.jpg,
+  //   comment:
+  //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo aut ad distinctio beatae quo dolorem, voluptates consequuntur natus in.",
+  // },
 ];
