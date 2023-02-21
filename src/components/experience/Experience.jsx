@@ -42,7 +42,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsShieldFillCheck className="experience__details-icon" />
               <div>
-                <h4>Tailwind</h4>
+                <h4>jQuery</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -63,6 +63,13 @@ const Experience = () => {
             <article className="experience__details">
               <BsShieldFillCheck className="experience__details-icon" />
               <div>
+                <h4>Node.js</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsShieldFillCheck className="experience__details-icon" />
+              <div>
                 <h4>Python</h4>
                 <small className="text-light">Intermediate</small>
               </div>
@@ -78,7 +85,7 @@ const Experience = () => {
               <BsShieldFillCheck className="experience__details-icon" />
               <div>
                 <h4>Django</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Basic</small>
               </div>
             </article>
           </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import download from "../../assets/download.jpeg";
+import code from "../../assets/code.jpg";
 import { RiAwardFill } from "react-icons/ri";
 import { IoIosFolder } from "react-icons/io";
 
@@ -12,7 +12,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={download} alt="image" />
+            <img src={code} alt="image" />
           </div>
         </div>
         <div className="about__content">
@@ -25,14 +25,14 @@ const About = () => {
             <article className="about__card">
               <IoIosFolder className="about__icon" />
               <h5>Projects</h5>
-              <small>20+ completed projects</small>
+              <small>30+ completed projects</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-            doloremque natus accusamus perspiciatis eum vitae harum repudiandae
-            ab modi libero et autem recusandae, labore, deleniti dolore,
-            delectus culpa eius itaque?
+            Self-motivated and competent frontend developer with a focus on
+            responsive web design. Has successfully completed 30+ frontend
+            development projects. Skilled in designing webpages and providing
+            functionality to websites using modern technologies.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's talk
