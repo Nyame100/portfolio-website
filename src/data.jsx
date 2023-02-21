@@ -31,27 +31,27 @@ export const portfolios = [
     git_url: "https://github.com/Nyame100/movieDB-project",
     demo_url: "https://movies-db-1.netlify.app",
   },
-  {
-    id: 4,
-    img: download4,
-    title: "some title",
-    git_url: "https://github.com",
-    demo_url: "https://dribbble.com/Alien_pixels",
-  },
-  {
-    id: 5,
-    img: download,
-    title: "some title",
-    git_url: "https://github.com",
-    demo_url: "https://dribbble.com/Alien_pixels",
-  },
-  {
-    id: 6,
-    img: download,
-    title: "some title",
-    git_url: "https://github.com",
-    demo_url: "https://dribbble.com/Alien_pixels",
-  },
+  // {
+  //   id: 4,
+  //   img: download4,
+  //   title: "some title",
+  //   git_url: "https://github.com",
+  //   demo_url: "https://dribbble.com/Alien_pixels",
+  // },
+  // {
+  //   id: 5,
+  //   img: download,
+  //   title: "some title",
+  //   git_url: "https://github.com",
+  //   demo_url: "https://dribbble.com/Alien_pixels",
+  // },
+  // {
+  //   id: 6,
+  //   img: download,
+  //   title: "some title",
+  //   git_url: "https://github.com",
+  //   demo_url: "https://dribbble.com/Alien_pixels",
+  // },
 ];
 
 export const testimonials = [
