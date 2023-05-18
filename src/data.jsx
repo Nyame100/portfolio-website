@@ -1,9 +1,5 @@
 import React from "react";
-import download from "../src/assets/download.jpeg";
 import fabregat from "../src/assets/fabregat.jpg";
-import download2 from "../src/assets/download2.jpeg";
-import download3 from "../src/assets/download3.jpeg";
-import download4 from "../src/assets/download4.jpeg";
 import cocktails from "../src/assets/cocktails2.JPG";
 import stockphotos from "../src/assets/stockphotos.JPG";
 import movies from "../src/assets/movies.JPG";
@@ -16,6 +12,7 @@ export const portfolios = [
     title: "Cocktails Project",
     git_url: "https://github.com/Nyame100/cocktails-project",
     demo_url: "https://cocktailsproject-1.netlify.app/",
+    desc: "lorem50",
   },
   {
     id: 2,
@@ -23,6 +20,7 @@ export const portfolios = [
     title: "Stock-Photo Project",
     git_url: "https://github.com/Nyame100/stock-photos-project",
     demo_url: "https://stock-photoss.netlify.app",
+    desc: "lorem50",
   },
   {
     id: 3,
@@ -30,6 +28,7 @@ export const portfolios = [
     title: "Movies-DB Project",
     git_url: "https://github.com/Nyame100/movieDB-project",
     demo_url: "https://movies-db-1.netlify.app",
+    desc: "lorem50",
   },
   // {
   //   id: 4,
@@ -69,11 +68,4 @@ export const testimonials = [
     comment:
       "Richmond is dedicated to whatever he sets his mind on. He is enthusiastic, commited and creative in finding solutions to problems.",
   },
-  // {
-  //   id: 3,
-  //   name: "Joseph Djaba",
-  //   img: joseph.jpg,
-  //   comment:
-  //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo aut ad distinctio beatae quo dolorem, voluptates consequuntur natus in.",
-  // },
 ];

@@ -1,5 +1,16 @@
 import React from "react";
 import "./experience.css";
+import { AiFillHtml5 } from "react-icons/ai";
+import { DiCss3 } from "react-icons/di";
+import {
+  SiRedux,
+  SiNodedotjs,
+  SiExpress,
+  SiMongodb,
+  SiPostman,
+} from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io";
+import { FaBootstrap, FaReact } from "react-icons/fa";
 import { BsShieldFillCheck } from "react-icons/bs";
 
 const Experience = () => {
@@ -12,44 +23,51 @@ const Experience = () => {
           <h3>Frontend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsShieldFillCheck className="experience__details-icon" />
+              <AiFillHtml5 className="experience__details-icon" />
               <div>
-                <h4>HTML</h4>
+                <h4>HTML5</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsShieldFillCheck className="experience__details-icon" />
+              <DiCss3 className="experience__details-icon" />
               <div>
-                <h4>CSS</h4>
+                <h4>CSS3</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsShieldFillCheck className="experience__details-icon" />
+              <IoLogoJavascript className="experience__details-icon" />
               <div>
-                <h4>Javascript</h4>
+                <h4>Javascript ( ES6+ )</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsShieldFillCheck className="experience__details-icon" />
+              <FaBootstrap className="experience__details-icon" />
               <div>
                 <h4>Bootstrap</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsShieldFillCheck className="experience__details-icon" />
+              <SiRedux className="experience__details-icon" />
               <div>
-                <h4>jQuery</h4>
+                <h4>Redux</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <FaReact className="experience__details-icon" />
+              <div>
+                <h4>React</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsShieldFillCheck className="experience__details-icon" />
               <div>
-                <h4>React</h4>
+                <h4>Headless CMS</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -61,30 +79,37 @@ const Experience = () => {
           <h3>Backend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsShieldFillCheck className="experience__details-icon" />
+              <SiNodedotjs className="experience__details-icon" />
               <div>
                 <h4>Node.js</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsShieldFillCheck className="experience__details-icon" />
+              <SiExpress className="experience__details-icon" />
               <div>
-                <h4>Python</h4>
+                <h4>Express</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <SiMongodb className="experience__details-icon" />
+              <div>
+                <h4>MongoDB</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsShieldFillCheck className="experience__details-icon" />
               <div>
-                <h4>MySQL</h4>
-                <small className="text-light">Intermediate</small>
+                <h4>Mongoose</h4>
+                <small className="text-light">Basic</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsShieldFillCheck className="experience__details-icon" />
+              <SiPostman className="experience__details-icon" />
               <div>
-                <h4>Django</h4>
+                <h4>Postman</h4>
                 <small className="text-light">Basic</small>
               </div>
             </article>

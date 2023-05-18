@@ -12,9 +12,9 @@ const HeaderSocials = () => {
       <a href="https://github.com/Nyame100" target="_blank">
         <VscGithub />
       </a>
-      <a href="https://dribbles.com" target="_blank">
+      {/* <a href="https://dribbles.com" target="_blank">
         <AiOutlineDribbbleSquare />
-      </a>
+      </a> */}
     </div>
   );
 };

@@ -1,23 +1,76 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 2rem;
   overflow: hidden;
+  margin-bottom: -8rem;
 }
 
 .header__container {
-  text-align: center;
+  /* text-align: center; */
   height: 100%;
   position: relative;
 }
 
-/* ============ CTA ============= */
-.cta {
-  margin-top: 2.5rem;
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
+.header__container h2 {
+  margin-top: 4rem;
+  margin-left: 5rem;
 }
 
+/* ============ CTA ============= */
+@media screen and (min-width: 1024px) {
+  .cta {
+    /* margin-top: 2.5rem; */
+    margin-left: 50rem;
+    margin-top: -4.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    font-size: medium;
+    font-weight: bold;
+  }
+  /* ============== IMAGE ============= */
+  .me {
+    background: linear-gradient(var(--color-primary));
+    width: 40rem;
+    height: 42rem;
+    position: absolute;
+    left: calc(37% - 11rem);
+    margin-top: 0.5rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    align-content: center;
+    /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
+  }
+  .logo {
+    margin-top: 0.8rem;
+    width: 2rem;
+    height: 2rem;
+  }
+  .in {
+    color: var(--color-primary);
+  }
+  .text {
+    display: flex;
+    border-right: 5px transparent;
+    width: 21%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s, cursor 0.4s step-end infinite alternate;
+    animation-delay: 1s;
+    animation-iteration-count: 3;
+    gap: 1.5rem;
+  }
+  @keyframes cursor {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+}
 /* ============ Header Socials =========== */
 .header__socials {
   display: flex;
@@ -36,19 +89,6 @@ header {
   background: var(--color-primary);
 }
 
-/* ============== IMAGE ============= */
-.me {
-  background: linear-gradient(var(--color-primary));
-  width: 22rem;
-  height: 30rem;
-  position: absolute;
-  left: calc(50% - 11rem);
-  margin-top: 4rem;
-  border-radius: 12rem 12rem 0 0;
-  overflow: hidden;
-  /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
-}
-
 .scroll__down {
   position: absolute;
   right: -2.3rem;
@@ -63,6 +103,15 @@ header {
   header {
     height: 68vh;
   }
+  .cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+  }
+  .logo {
+    display: none;
+  }
 }
 
 /* ============ MEDIA QUERIES (SMALL DEVICES) ============= */
@@ -72,6 +121,19 @@ header {
   }
   .header__socials,
   .scroll__down {
+    display: none;
+  }
+  .header__container h2 {
+    margin-left: auto;
+    text-align: center;
+  }
+  .cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+  }
+  .logo {
     display: none;
   }
 }

@@ -11,10 +11,10 @@
 }
 
 :root {
-  --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-bg: #0a0a0a;
+  --color-bg-variant: #404040;
+  --color-primary: #a855f7;
+  --color-primary-variant: #525252;
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
@@ -34,7 +34,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Supreme", sans-serif;
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
@@ -47,11 +47,24 @@ body {
   margin: 0 auto;
 }
 
+.cont {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+/* .cont {
+  width: var(--container-width-lg);
+  margin-left: 12rem;
+  margin-bottom: 5rem;
+} */
+
 h1,
 h2,
 h3,
 h4,
 h5 {
+  font-family: "Technor", sans-serif;
   font-weight: 500;
 }
 
@@ -88,6 +101,7 @@ a:hover {
 }
 
 .btn {
+  font-family: inherit;
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
@@ -113,6 +127,14 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+.sweet-loader {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
 }
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) ============ */
