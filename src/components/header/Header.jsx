@@ -16,7 +16,7 @@ const Header = () => {
         <CTA />
         <h2>
           Is it an interesting Project ?
-          <span className="in"> Count me in !</span>
+          <span className="in"> You can count me in !</span>
         </h2>
         <h1>
           <HeaderSocials />

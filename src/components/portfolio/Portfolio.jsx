@@ -18,12 +18,7 @@ const Portfolio = () => {
             </div>
             <div className="portfolio__content">
               <h3>{title}</h3>
-              <p>
-                Self-motivated and competent frontend developer with a focus on
-                responsive web design. Has successfully completed 30+ frontend
-                development projects. Skilled in designing webpages and
-                providing functionality to websites using modern technologies.
-              </p>
+              <p>{desc}</p>
               <div className="portfolio__item-cta">
                 <a href={git_url} className="btn" target="_blank">
                   Github
