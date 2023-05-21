@@ -36,10 +36,9 @@ export const portfolios = [
     img: photos,
     title: "Stock-Photos",
     git_url: "https://github.com/Nyame100/stock-photos-project",
-    demo_url: "https://stock-photoss.netlify.app",
+    demo_url: "https://stockphoto.netlify.app",
     desc: "An app that allows users to search images fom Unsplash API. Users can also toggle between dark mode and light mode.",
   },
-
   // {
   //   id: 5,
   //   img: download,
