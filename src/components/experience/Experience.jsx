@@ -39,7 +39,7 @@ const Experience = () => {
             <article className="experience__details">
               <IoLogoJavascript className="experience__details-icon" />
               <div>
-                <h4>Javascript ( ES6+ )</h4>
+                <h4>Javascript (ES6+)</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
