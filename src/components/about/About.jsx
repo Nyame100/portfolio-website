@@ -20,7 +20,7 @@ const About = () => {
             <article className="about__card">
               <RiAwardFill className="about__icon" />
               <h5>Experience</h5>
-              <small>1+ year</small>
+              <small>3+ year</small>
             </article>
             <article className="about__card">
               <IoIosFolder className="about__icon" />
@@ -29,10 +29,11 @@ const About = () => {
             </article>
           </div>
           <p>
-            Self-motivated and competent fullstack developer with a focus on
-            building MERN stack applications. Has successfully completed 30+
-            projects. Skilled in responsive web design and developing
-            applications with cross-platform compatibility.
+            Creative fullstack developer with a focus on building MERN stack
+            applications. Experienced in developing and optimizing web
+            applications and user interfaces. Proficient at building databases,
+            servers and RESTful APIs coupled with a focus on responsive web
+            design and building applications with cross-platform compatibility.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's talk
