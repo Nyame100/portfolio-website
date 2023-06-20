@@ -25,7 +25,7 @@ const About = () => {
             <article className="about__card">
               <IoIosFolder className="about__icon" />
               <h5>Projects</h5>
-              <small>30+ completed projects</small>
+              <small>80+ completed projects</small>
             </article>
           </div>
           <p>
